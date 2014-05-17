@@ -16,10 +16,10 @@ resolvers ++= Seq(
     )
 
 libraryDependencies ++= Seq(
-  "com.typesafe" %% "webdriver" % "1.0.0-RC1"
+  "com.typesafe" %% "webdriver" % "1.0.0-SNAPSHOT"
 )
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-web" % "1.0.0-RC1")
+addSbtPlugin("com.typesafe.sbt" % "sbt-web" % "1.0.0-SNAPSHOT")
 
 publishMavenStyle := false
 
