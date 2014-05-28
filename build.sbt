@@ -4,7 +4,7 @@ organization := "com.typesafe.sbt"
 
 name := "sbt-webdriver"
 
-version := "1.0.0-SNAPSHOT"
+version := "1.0.0"
 
 scalaVersion := "2.10.4"
 
@@ -16,10 +16,10 @@ resolvers ++= Seq(
     )
 
 libraryDependencies ++= Seq(
-  "com.typesafe" %% "webdriver" % "1.0.0-RC2"
+  "com.typesafe" %% "webdriver" % "1.0.0"
 )
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-web" % "1.0.0-RC2")
+addSbtPlugin("com.typesafe.sbt" % "sbt-web" % "1.0.0")
 
 publishMavenStyle := false
 
